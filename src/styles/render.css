@@ -1,0 +1,27 @@
+.resume-container {
+  height: 100%;
+
+  .resume-sidebar {
+    background-color: #03588c;
+    color: white;
+
+    .list-group-item {
+      background-color: #03588c;
+      color: white;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+    }
+
+    a {
+      outline: none;
+      border: none;
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+}

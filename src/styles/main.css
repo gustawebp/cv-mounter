@@ -1,0 +1,34 @@
+.main-app-js {
+  height: 100vh;
+  background-color: #6a95a6;
+  overflow: auto;
+}
+
+.resume-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.resume-sidebar {
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.resume-main {
+  padding: 20px;
+}
+
+.resume-main h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.job-experience h5 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.job-experience p {
+  font-size: 16px;
+}

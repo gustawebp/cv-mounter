@@ -1,0 +1,58 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Faz com que a div ocupe no mínimo a altura total da tela */
+  text-align: center;
+
+  h1 {
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .create-button {
+    padding: 45px;
+    font-size: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: #63b6bf;
+    color: white;
+    font-weight: bold;
+  }
+
+  .create-button:hover {
+    border-radius: 15px;
+  }
+
+  .paper-main {
+    width: 200px;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 5px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
